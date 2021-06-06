@@ -125,3 +125,7 @@ body{
     margin-bottom: 10px;
 }
 
+.error-text{
+    color:red;
+}
+

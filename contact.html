@@ -28,15 +28,21 @@
     </header>
                                           
     <main>
-        <div id="error"></div>
+       
         <form action="/"  method="GET" id="contact-form">
             <label for="name">First Name:</label><br>
             <input class="input round-edges" type="text " id="name" name="name" ><br>
+            <div id="nameError" class="error-text"></div>
             <label for="surname">Last Name</label><br>
+            
             <input class="input round-edges"type="text" id="surname" name="surname"  ><br>
+            <div id="surnameError" class="error-text"></div>
             <label for="usermail">Email:</label><br>
+          
             <input class="input round-edges" type="text"  id="usermail" name="usermail" ><br>
+            <div id="mailError" class="error-text"></div>
             <textarea class="textarea round-edges" name="usermessage" id="usermessage" name="usermessage" cols="30" rows="10" placeholder="Please enter message here..."></textarea><br>
+            <div id="messageError" class="error-text"></div>
             <button type="submit" >Submit</button>          
         </form>                   
     </main>
