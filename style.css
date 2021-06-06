@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.siteheading{
+    color: #254552;
+    margin:0;
+    padding:0;
+}
+
+.tagline{
+    color: #000087;
+}
+
+.links-box{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.links-box-left{
+    padding-left:15px;
+}
+
+.links-box-right{
+    padding-right: 10px;
+}
+
+.link-left{
+    margin-right:20px;
+}
+
+.link-left a, .link-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-left a:hover, .link-right a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.home-box{
+   
+    padding: 40px 0;
+}
+
+.home-copy-box{
+    width: 100%;
+  
+}
+
+.home-title{
+    margin-left:25px;
+}
+
+.home-copy{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    width:61%;
+    margin-left:20px ; 
+}
+
+.home-action{
+   
+    border: 1px solid #CB356B;
+    background: linear-gradient(32deg,#CB356B,#BD3F32);
+    display: inline-block;
+    width: 120px;
+    height:30px;
+    border-radius: 40px;
+    margin-left: 200px;
+    text-align: center;
+    line-height: 27px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.background-color{
+     background-color: #DC143C; 
+ 
+}
+
+.white-text{
+    color:white;
+}
+
+.links-box{
+    
+    list-style:none;
+}
+
+.inline{
+    display:inline;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:20px;
+    padding-bottom:27px;
+    text-align:center;
+    font-size: 12px;
+}
+
+#contact-form{
+    text-align: center;
+    padding:20px;
+}
+
+.classroom-image{
+    margin-left: 20px;
+}
+
+.round-edges{
+    border-radius: 6px;
+    border: 1px dotted #DC143C;
+}
+
+.input,.textarea{
+    margin-bottom: 10px;
+}
+
